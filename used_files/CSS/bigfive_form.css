@@ -51,6 +51,7 @@ qc /* question container */ {
 
 
 question {
+    margin-left: 20px;
     grid-row: 1 / 2;
     grid-column: 1 / 2;
 }
@@ -61,4 +62,3 @@ choice {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
-

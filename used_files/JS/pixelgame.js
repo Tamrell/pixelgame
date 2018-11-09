@@ -109,9 +109,10 @@ function mutate_color(oc, randrate){
     var g = parseInt(oc.slice(3,5), 16);
     var b = parseInt(oc.slice(5,7), 16);
 
-    r += Math.round((Math.random()*2-1)*randrate);
-    g += Math.round((Math.random()*2-1)*randrate);
-    b += Math.round((Math.random()*2-1)*randrate);
+    var change = Math.round((Math.random()*2-1)*randrate);
+    r += change
+    g += change
+    b += change
 
     r = Math.max(Math.min(r, 255), 0);
     g = Math.max(Math.min(g, 255), 0);
@@ -178,7 +179,9 @@ function create_classes(){
 
 function get_rand_color(){
 	// check if understand = difficult: https://www.paulirish.com/2009/random-hex-color-code-snippets/
-	return '#'+Math.floor(Math.random()*16777215).toString(16);
+	//return '#'+Math.floor(Math.random()*16777215).toString(16);
+    grayval = Math.floor(Math.random()*255).toString(16)
+    return '#' + grayval + grayval+ grayval
 }
 
 

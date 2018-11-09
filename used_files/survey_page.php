@@ -3,9 +3,9 @@
     <head>
         <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="../CSS/bigfive_form.css">
+        <link rel="stylesheet" href="../used_files/CSS/bigfive_form.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="../JS/include.js"></script>
+        <script src="../used_files/JS/include.js"></script>
     </head>
     <body>
 

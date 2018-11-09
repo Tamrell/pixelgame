@@ -60,7 +60,7 @@ def likert_header():
 def questionaire_header():
     return """
     <p>
-    Here are a number of characteristics that may or may not describe you.  For example, do you agree that you seldom feel blue, compared to most other people?  Please fill in the number that best indicates the extent to which you agree or disagree with each statement listed below.  Be as honest as possible, but rely on your initial feeling and do not think too much about each item.
+    Here are a number of characteristics that may or may not describe you.  For example, do you agree that you seldom feel blue, compared to most other people?  Please fill in that which best indicates the extent to which you agree or disagree with each statement listed below. Be as honest as possible, but rely on your initial feeling and do not think too much about each item.
     </p>
     """
 
