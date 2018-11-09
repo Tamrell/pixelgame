@@ -1,0 +1,21 @@
+:root {
+/*
+ - Colors
+*/
+  --LightBG: #ffffff;
+  --BasicBG: #fff3e0;
+  --DarkBG: #ccc0ae;
+  --Text: #000000;
+  --DarkPannel: #8e0000;
+  --BasicPannel: #c62828;
+  --LightPannel: #ff5f52;
+}
+
+
+body {
+    background-color: lightgray;
+}
+
+p {
+    font-size: large;
+}

@@ -10,11 +10,12 @@
   --DarkPannel: #8e0000;
   --BasicPannel: #c62828;
   --LightPannel: #ff5f52;
-  --lightgray:
 }
 
 
-
+body {
+    background-color: lightgray;
+}
 
 gamecontainer {
     background-color: var(--DarkBG);
