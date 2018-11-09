@@ -1,0 +1,64 @@
+
+:root {
+/*
+ - Colors
+*/
+  --LightBG: #ffffff;
+  --BasicBG: #fff3e0;
+  --DarkBG: #ccc0ae;
+  --Text: #000000;
+  --DarkPannel: #8e0000;
+  --BasicPannel: #c62828;
+  --LightPannel: #ff5f52;
+}
+
+
+qc:nth-of-type(even) {
+    background-color: var(--BasicBG);
+}
+
+qc:nth-of-type(odd) {
+    background-color: var(--LightBG);
+}
+
+
+qc.header_qc {
+    border-style: solid;
+    border-width: 0.05vw;
+}
+
+maincontainer {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+}
+
+
+middle_wrapper {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+
+qc /* question container */ {
+    background-color: inherit;
+    display: grid;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: auto;
+}
+
+
+question {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+
+choice {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+

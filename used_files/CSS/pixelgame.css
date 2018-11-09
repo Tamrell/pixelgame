@@ -1,0 +1,41 @@
+
+:root {
+/*
+ - Colors
+*/
+  --LightBG: #ffffff;
+  --BasicBG: #fff3e0;
+  --DarkBG: #ccc0ae;
+  --Text: #000000;
+  --DarkPannel: #8e0000;
+  --BasicPannel: #c62828;
+  --LightPannel: #ff5f52;
+  --lightgray:
+}
+
+
+
+
+gamecontainer {
+    background-color: var(--DarkBG);
+    padding: 6vh;
+    margin-top: 5vh;
+    border-radius: 4vh 4vh 4vh 4vh;
+    width: 70vh;
+    height: 70vh;
+    display: grid;
+    grid-column-gap: 5vh;
+    grid-row-gap: 5vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+imagecontainer {
+    width: 20vh;
+    height: 20vh;
+    display: grid;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}

@@ -1,0 +1,5 @@
+Extraversion: 1, 6R, 11, 16, 21R, 26, 31R, 36
+Agreeableness: 2R, 7, 12R, 17, 22, 27R, 32, 37R, 42
+Conscientiousness: 3, 8R, 13, 18R, 23R, 28, 33, 38, 43R
+Neuroticism: 4, 9R, 14, 19, 24R, 29, 34R, 39
+Openness: 5, 10, 15, 20, 25, 30, 35R, 40, 41R, 44 

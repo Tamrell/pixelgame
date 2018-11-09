@@ -1,0 +1,5 @@
+Neuroticism; Withdrawal: 1R, 11, 21R, 31, 41R, 51, 61, 71R, 81, 91; Volatility: 6, 16R, 26, 36R, 46, 56R, 66, 76R, 86, 96
+Agreeableness; Compassion: 2R, 12, 22, 32R, 42, 52R, 62R, 72, 82R, 92; Politeness: 7, 17R, 27, 37R, 47, 57, 67R, 77R, 87R, 97R
+Conscientiousness; Industriousness: 3, 13R, 23R, 33R, 43, 53R, 63, 73, 83R, 93R; Orderliness: 8R, 18, 28, 38, 48R, 58, 68R, 78R, 88, 98
+Extraversion; Enthusiasm: 4, 14R, 24R, 34R, 44, 54R, 64R, 74, 84, 94; Assertiveness: 9, 19, 29R, 39, 49R, 59, 69, 79R, 89, 99R
+Openness/Intellect; Intellect: 5, 15R, 25, 35, 45R, 55R, 65, 75, 85R, 95; Openness: 10, 20, 30, 40, 50R, 60R, 70, 80R, 90R, 100
